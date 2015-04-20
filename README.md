@@ -8,7 +8,7 @@ Data is available in GeoJSON and ESRI Shapefile format.
 ## Data Sources:
 This dataset was created from a list of tenants rights organizations I compiled for NYC which includes orgs listed in the [DHCR Community Based Housing Organizations list](https://github.com/clhenrick/DHCR_Community_Based_Housing_Orgs). 
 
-The polygon boundaries were from multiple datasources for NYC neighborhoods, zipcode tabulation areas, community district boundaries, as well as boundaries I drew from scratch. For organizations that serve multiple neighborhoods the original polygons were dissolved / joined. 
+The polygon boundaries are sourced from multiple datasources for NYC neighborhoods, zipcode tabulation areas, community district boundaries, as well as boundaries I drew from scratch. For organizations that serve multiple neighborhoods the polygons were dissolved / joined. 
 
 - [Pediacities NYC Neighborhoods](http://nyc.pediacities.com/New_York_City_Neighborhoods)
 - [NYC Planning Neighborhood Tabulation Areas](http://www.nyc.gov/html/dcp/html/bytes/dwn_nynta.shtml)

@@ -20,7 +20,7 @@ There is a lot of overlap in the polygon boundaries. Using PostGIS with a "point
 
 ```
 SELECT * FROM nyc_tenants_rights_service_areas
-where 
+WHERE 
 ST_Intersects(
   ST_GeomFromText(
    'Point(-73.982557 40.724435)', 4326
@@ -32,8 +32,8 @@ Or by using `ST_Contains`:
 
 ```
 SELECT * FROM nyc_tenants_rights_service_areas
-where 
-st_contains(
+WHERE 
+ST_Contains(
   nyc_tenants_rights_service_areas.the_geom,
   ST_GeomFromText(
    'Point(-73.917104 40.694827)', 4326
